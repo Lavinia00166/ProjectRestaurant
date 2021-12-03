@@ -18,16 +18,16 @@ namespace ProjectRestaurant
             _productList.Add(new RestaurantProduct("Quattro Stagioni", 34).SetVAT(9));
 
             _productList.Add(new RestaurantProduct("Pollo e funghi", 22).SetVAT(9));
-            _productList.Add(new RestaurantProduct("Carbonara", 28).SetVAT(9));
-            _productList.Add(new RestaurantProduct("Frutti di mare", 28).SetVAT(9));
+            _productList.Add(new RestaurantProduct("Carbonara", 25).SetVAT(9));
+            _productList.Add(new RestaurantProduct("Frutti di mare", 40).SetVAT(9));
 
-            _productList.Add(new RestaurantProduct("Lava cake", 28).SetVAT(10));
-            _productList.Add(new RestaurantProduct("Ice cream", 28).SetVAT(10));
-            _productList.Add(new RestaurantProduct("Pancakes", 28).SetVAT(10));
+            _productList.Add(new RestaurantProduct("Lava cake", 15).SetVAT(10));
+            _productList.Add(new RestaurantProduct("Ice cream", 12).SetVAT(10));
+            _productList.Add(new RestaurantProduct("Pancakes", 20).SetVAT(10));
 
-            _productList.Add(new RestaurantProduct("Cola", 28).SetVAT(12));
-            _productList.Add(new RestaurantProduct("Sprite", 28).SetVAT(12));
-            _productList.Add(new RestaurantProduct("WATER", 28).SetVAT(5));
+            _productList.Add(new RestaurantProduct("Cola", 7).SetVAT(12));
+            _productList.Add(new RestaurantProduct("Sprite", 5).SetVAT(12));
+            _productList.Add(new RestaurantProduct("WATER", 3).SetVAT(5));
 
         }
 
